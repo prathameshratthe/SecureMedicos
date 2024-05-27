@@ -64,10 +64,10 @@ Here is the demo of our app in form of gifs.
 -------------
 
 ### Made by team DJ Hackers
-* [Prathamesh Ratthe](https://github.com/DhruvBhagadia)
-* [Mansi Mishra](https://github.com/da2ash)
-* [Feuna Khan](https://github.com/mustafabhanpura)
-* [Riya Kashikar](https://github.com/mustafabhanpura)
-* [Priyanshi](https://github.com/mustafabhanpura)
+* [Prathamesh Ratthe](https://github.com/prathameshratthe)
+* [Mansi Mishra](https://github.com/mansi815)
+* [Feuna Khan](https://github.com/feuna27)
+* [Riya Kashikar](https://github.com/)
+* [Priyanshi](https://github.com/priyanshi0912)
 
 #### Feedbacks are welcome
