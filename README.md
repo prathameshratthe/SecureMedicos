@@ -63,11 +63,11 @@ Here is the demo of our app in form of gifs.
 ![4](https://user-images.githubusercontent.com/32220881/84142713-e7ca2600-aa72-11ea-970e-1a2c23be6b79.gif)
 -------------
 
-### Made by team 3D Dumbass
+### Made by team
 * [Prathamesh Ratthe](https://github.com/prathameshratthe)
 * [Mansi Mishra](https://github.com/mansi815)
 * [Feuna Khan](https://github.com/feuna27)
-* [Riya Kashikar](https://github.com/)
+* [Riya Kashikar](https://github.com/riya-kashikar)
 * [Priyanshi](https://github.com/priyanshi0912)
 
 #### Feedbacks are welcome
