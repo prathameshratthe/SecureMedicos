@@ -1,23 +1,22 @@
 # SecureMedicos
-SecureMedicos is an application that provides a secured, homomorphic way of storing crucial, sensitive pharmaceutical data on the cloud. It is an application that we implemented as our final year project for Bachelor's Degree in Computer Engineering.
+SecureMedicos is an application that provides a secured, homomorphic way of storing crucial, sensitive pharmaceutical data on the cloud. It is an application that we implemented as our Pre-final year project for a Bachelor's Degree in Computer Science and Engineering.
 
-Our research is published in [Web Of Science journal](http://sersc.org/journals/index.php/IJFGCN/article/view/17887) and has received the [Best paper award](https://photos.app.goo.gl/hmBGN9uLPGHXrnqC8) at ICCTAW conference (Computing technologies for Transforming the Automated World) held in April 2020
 
 ## Homomorphic Encryption
 Homomorphic Encryption is an encryption technique that allows specific computations on
 data in its encrypted form (cipher texts). The result is always encrypted data (cipher text),
 which results from operations performed on encrypted data of plain text. Homomorphic
-Encryption provides the basis of manipulating data without decrypting it first. We make use of **Paillier Homomorphic Encryption scheme** in our implementation.
+Encryption provides the basis for manipulating data without decrypting it first. We make use of the **Paillier Homomorphic Encryption scheme** in our implementation.
 
 ## Key Storage on the Server
-Our application focuses on two users, managers and researchers/employees. In any case the
+Our application focuses on two users, managers and researchers/employees. In any case, the
 keys need to be stored securely on the servers. There are various ways that we explored and
-then came to a conclusion of making use of the most suitable one. Few methods are:
+then came to a conclusion of making use of the most suitable one. A few methods are:
 
 ### HSM (Hardware Security Module)
 It is a separate hardware module in which sensitive keys are stored. The major advantage that
-this method provides is it’s distal from the actual server. The keys are stored on the HSM and
-never leaves the appliance un-encrypted. Any cryptographic activity that involves the private
+this method provides is its distal from the actual server. The keys are stored on the HSM and
+never leaves the appliance unencrypted. Any cryptographic activity that involves the private
 key is carried out internally within the device. However, considering the overhead of extra
 hardware we didn’t opt for this option in our project.
 
@@ -29,11 +28,11 @@ registering with the system, he has to use the same secret in the future to fetc
 keys.
 
 ### Encrypted file with hidden key
-Another solution for securely storing keys on the server is to store it in a particular file and
-then encrypting that file with the user password or equivalent key. The major advantages
+Another solution for securely storing keys on the server is to store them in a particular file and
+then encrypt that file with the user password or equivalent key. The major advantages
 provided by such a service is getting more control while logging into the system to get results. We make use of this technique thereby securing the storage of keys on the server.
 
-Here is how the file storing key looks:
+Here is how the file-storing key looks:
 ![pasted image 0](https://user-images.githubusercontent.com/32220881/84137288-17c0fb80-aa6a-11ea-9310-625f06955d52.png)
 
 ## Methodology
@@ -51,7 +50,7 @@ Here is how the file storing key looks:
 ![image](https://user-images.githubusercontent.com/32220881/84143326-02e96580-aa74-11ea-89ac-6b58cbf207de.png)
 
 ## Demo
-Here is the demo of our app in form of gifs.
+Here is the demo of our app in the form of gifs.
 
 
 ![1](https://user-images.githubusercontent.com/32220881/84142462-725e5580-aa72-11ea-9406-181c49e3c549.gif)
